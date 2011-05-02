@@ -1,0 +1,13 @@
+Bitlove is a universal podcast proxy for iTunes.
+
+How does/will it work?
+
+  - Subscribe to a Youtube RSS Feed or a .torrent RSS Feed in BitLove
+  - Bitlove will download video/audio
+    - Later: convert audio/video to aac/avc
+  - Bitlove then provides these files via http on localhost
+    - It might also be possible to add files directly, with feedid intact
+      (needs to be invesigated)
+  - And automatically subscribes iTunes to the local proxy (if it isn't already)
+  - After everythings finished, we growl.
+  
