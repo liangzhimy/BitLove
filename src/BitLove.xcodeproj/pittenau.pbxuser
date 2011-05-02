@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 313C940B136EF98F00882142 /* BitLove */;
 		activeTarget = 8D1107260486CEB800E47090 /* BitLove */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* BitLove */,
+		);
 		codeSenseManager = 313C9419136EF9AD00882142 /* Code sense */;
 		executables = (
 			313C940B136EF98F00882142 /* BitLove */,
@@ -16,7 +19,7 @@
 					20,
 					449,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -31,8 +34,30 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 326039951;
-			PBXWorkspaceStateSaveDate = 326039951;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					409,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326047335;
+			PBXWorkspaceStateSaveDate = 326047335;
 		};
 		sourceControlManager = 313C9418136EF9AD00882142 /* Source Control */;
 		userBuildSettings = {
@@ -54,6 +79,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -135,8 +161,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {395, 220}}",
-							"{{400, 0}, {647, 220}}",
+							"{{0, 0}, {396, 220}}",
+							"{{401, 0}, {648, 220}}",
 						);
 					};
 				};
@@ -225,7 +251,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						384.570801,
+						385.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
