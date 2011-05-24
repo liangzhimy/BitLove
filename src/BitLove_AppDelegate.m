@@ -7,6 +7,7 @@
 //
 
 #import "BitLove_AppDelegate.h"
+#import "Preferences.h"
 
 @implementation BitLove_AppDelegate
 
@@ -208,5 +209,11 @@
     [super dealloc];
 }
 
+
+- (IBAction)showPreferences:sender;
+{
+	[[Preferences sharedPrefsWindowController] showWindow:nil];
+	(void)sender;
+}
 
 @end

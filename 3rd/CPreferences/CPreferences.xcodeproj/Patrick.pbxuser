@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* CPreferencesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 582}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 375}";
+			sepNavWindowFrame = "{{215, 66}, {1065, 710}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* CPreferencesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {599, 351}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 389}";
+			sepNavWindowFrame = "{{215, 56}, {1065, 710}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CDABEF0511C1DF800076F90E /* CPreferences */;
+		activeTarget = 8D1107260486CEB800E47090 /* CPreferences */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* CPreferences */,
+		);
+		breakpoints = (
+			CDABF0EF11C1F0DB0076F90E /* CPreferencesAppDelegate.h:17 */,
+		);
+		codeSenseManager = CDABEF1911C1DF880076F90E /* Code sense */;
+		executables = (
+			CDABEF0511C1DF800076F90E /* CPreferences */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 312666953;
+			PBXWorkspaceStateSaveDate = 312666953;
+		};
+		sourceControlManager = CDABEF1811C1DF880076F90E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* CPreferences */ = {
+		activeExec = 0;
+		executables = (
+			CDABEF0511C1DF800076F90E /* CPreferences */,
+		);
+	};
+	CDABEF0511C1DF800076F90E /* CPreferences */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CPreferences;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CDABEF1811C1DF880076F90E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CDABEF1911C1DF880076F90E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CDABEF2011C1E0180076F90E /* Preferences.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 1313}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 976}";
+			sepNavWindowFrame = "{{0, 57}, {1280, 721}}";
+		};
+	};
+	CDABEF2111C1E0180076F90E /* Preferences.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 582}}";
+			sepNavSelRange = "{380, 0}";
+			sepNavVisRange = "{0, 502}";
+			sepNavWindowFrame = "{{15, 63}, {1065, 710}}";
+		};
+	};
+	CDABF0EF11C1F0DB0076F90E /* CPreferencesAppDelegate.h:17 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D80F4B6AC300CF3369 /* CPreferencesAppDelegate.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 17;
+		modificationTime = 297922779.178817;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+}

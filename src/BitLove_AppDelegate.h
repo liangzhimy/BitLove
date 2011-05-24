@@ -24,5 +24,6 @@
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 
 - (IBAction)saveAction:sender;
+- (IBAction)showPreferences:sender;
 
 @end

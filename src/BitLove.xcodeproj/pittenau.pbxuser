@@ -12,12 +12,36 @@
 			313C940B136EF98F00882142 /* BitLove */,
 		);
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					449,
+					490,
 					20,
 					48,
 					43,
@@ -39,10 +63,10 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					409,
+					450,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -56,12 +80,136 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 326047335;
-			PBXWorkspaceStateSaveDate = 326047335;
+			PBXPerProjectTemplateStateSaveDate = 327339891;
+			PBXWorkspaceStateSaveDate = 327339891;
+		};
+		perUserProjectItems = {
+			3104CA941382D0C100814881 /* PBXTextBookmark */ = 3104CA941382D0C100814881 /* PBXTextBookmark */;
+			3104CA951382D0C100814881 /* PBXTextBookmark */ = 3104CA951382D0C100814881 /* PBXTextBookmark */;
+			3104CA961382D0C100814881 /* PBXTextBookmark */ = 3104CA961382D0C100814881 /* PBXTextBookmark */;
+			3104CA971382D0C100814881 /* PBXTextBookmark */ = 3104CA971382D0C100814881 /* PBXTextBookmark */;
+			3104CA981382D0C100814881 /* PBXTextBookmark */ = 3104CA981382D0C100814881 /* PBXTextBookmark */;
+			3104CA991382D0C100814881 /* PBXTextBookmark */ = 3104CA991382D0C100814881 /* PBXTextBookmark */;
+			3104CA9A1382D0C100814881 /* PBXTextBookmark */ = 3104CA9A1382D0C100814881 /* PBXTextBookmark */;
+			3104CA9B1382D0C100814881 /* PBXTextBookmark */ = 3104CA9B1382D0C100814881 /* PBXTextBookmark */;
+			3104CA9C1382D0C100814881 /* PBXTextBookmark */ = 3104CA9C1382D0C100814881 /* PBXTextBookmark */;
+			313C9773137021ED00882142 /* XDModelBookmark */ = 313C9773137021ED00882142 /* XDModelBookmark */;
+			313C9774137021ED00882142 /* PlistBookmark */ = 313C9774137021ED00882142 /* PlistBookmark */;
+			313C9785137023A200882142 /* PBXTextBookmark */ = 313C9785137023A200882142 /* PBXTextBookmark */;
+			313C9787137023A200882142 /* PBXTextBookmark */ = 313C9787137023A200882142 /* PBXTextBookmark */;
+			313C97911370240900882142 /* PBXTextBookmark */ = 313C97911370240900882142 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 313C9418136EF9AD00882142 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	3104CA881382CFBD00814881 /* BTLDownloadController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 245}";
+		};
+	};
+	3104CA891382CFBD00814881 /* BTLDownloadController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 473}}";
+			sepNavSelRange = "{287, 31}";
+			sepNavVisRange = "{0, 329}";
+		};
+	};
+	3104CA911382D0AC00814881 /* BTLBittorrentDownloadController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 265}";
+		};
+	};
+	3104CA941382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 313C97781370220100882142 /* Preferences.m */;
+		name = "Preferences.m: 31";
+		rLen = 0;
+		rLoc = 509;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	3104CA951382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 313C9764137020FE00882142 /* TorrentFeed.m */;
+		name = "TorrentFeed.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 207;
+		vrLoc = 0;
+	};
+	3104CA961382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 313C9767137020FE00882142 /* YouTubeFeed.h */;
+		name = "YouTubeFeed.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	3104CA971382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 313C9768137020FE00882142 /* YouTubeFeed.m */;
+		name = "YouTubeFeed.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 207;
+		vrLoc = 0;
+	};
+	3104CA981382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* BitLove_AppDelegate.m */;
+		name = "BitLove_AppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 889;
+		vrLoc = 0;
+	};
+	3104CA991382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3104CA881382CFBD00814881 /* BTLDownloadController.h */;
+		name = "BTLDownloadController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 0;
+	};
+	3104CA9A1382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3104CA891382CFBD00814881 /* BTLDownloadController.m */;
+		name = "BTLDownloadController.m: 15";
+		rLen = 31;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	3104CA9B1382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3104CA911382D0AC00814881 /* BTLBittorrentDownloadController.h */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	3104CA9C1382D0C100814881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3104CA911382D0AC00814881 /* BTLBittorrentDownloadController.h */;
+		name = "BTLBittorrentDownloadController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 265;
+		vrLoc = 0;
 	};
 	313C940B136EF98F00882142 /* BitLove */ = {
 		isa = PBXExecutable;
@@ -87,6 +235,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = BitLove;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -105,12 +255,100 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	313C975F137020FE00882142 /* Feed.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 578}}";
+			sepNavSelRange = "{254, 0}";
+			sepNavVisRange = "{75, 612}";
+		};
+	};
+	313C9764137020FE00882142 /* TorrentFeed.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 207}";
+		};
+	};
+	313C9767137020FE00882142 /* YouTubeFeed.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	313C9768137020FE00882142 /* YouTubeFeed.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 207}";
+		};
+	};
+	313C9773137021ED00882142 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 770B37EC0679A11B001EADE2 /* BitLove_DataModel.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	313C9774137021ED00882142 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* BitLove-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/pittenau/Code/Own/BitLove/src/BitLove-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	313C97781370220100882142 /* Preferences.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1513}}";
+			sepNavSelRange = "{509, 0}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	313C9785137023A200882142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 313C975F137020FE00882142 /* Feed.h */;
+		name = "Feed.h: 17";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 612;
+		vrLoc = 75;
+	};
+	313C9787137023A200882142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280B06725ACE000B614F /* BitLove_AppDelegate.h */;
+		name = "BitLove_AppDelegate.h: 27";
+		rLen = 36;
+		rLoc = 767;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 29;
+	};
+	313C97911370240900882142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 313C97921370240900882142 /* CPreferencesAppDelegate.m */;
+		name = "CPreferencesAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 0;
+	};
+	313C97921370240900882142 /* CPreferencesAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CPreferencesAppDelegate.m;
+		path = /Users/pittenau/Code/Own/BitLove/3rd/CPreferences/CPreferencesAppDelegate.m;
+		sourceTree = "<absolute>";
+	};
 	770B37EC0679A11B001EADE2 /* BitLove_DataModel.xcdatamodel */ = {
 		uiCtxt = {
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 1;
+					_indexOfSelectedView = 0;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 1;
@@ -141,8 +379,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {1049, 220}}",
-							"{{1054, 0}, {551, 220}}",
+							"{{0, 0}, {1048, 218}}",
+							"{{1053, 0}, {552, 218}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -161,8 +399,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {396, 220}}",
-							"{{401, 0}, {648, 220}}",
+							"{{0, 0}, {396, 218}}",
+							"{{401, 0}, {647, 218}}",
 						);
 					};
 				};
@@ -251,7 +489,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						385.570801,
+						384.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -262,6 +500,21 @@
 				"xdesign model diagram view visible rect key" = "{{-446, -192}, {1590, 799}}";
 			};
 			sepNavWindowFrame = "{{277, 193}, {1605, 1152}}";
+		};
+	};
+	77C8280B06725ACE000B614F /* BitLove_AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 510}}";
+			sepNavSelRange = "{767, 36}";
+			sepNavVisRange = "{29, 780}";
+		};
+	};
+	77C8280C06725ACE000B614F /* BitLove_AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {900, 3791}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{0, 889}";
+			sepNavWindowFrame = "{{61, 219}, {1605, 1152}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* BitLove */ = {

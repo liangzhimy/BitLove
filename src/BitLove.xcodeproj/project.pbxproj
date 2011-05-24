@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		3104CA8A1382CFBD00814881 /* BTLDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3104CA891382CFBD00814881 /* BTLDownloadController.m */; };
+		3104CA931382D0AC00814881 /* BTLBittorrentDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3104CA921382D0AC00814881 /* BTLBittorrentDownloadController.m */; };
 		313C9428136F167E00882142 /* BitLove.icns in Resources */ = {isa = PBXBuildFile; fileRef = 313C9427136F167E00882142 /* BitLove.icns */; };
 		313C948A136F1A4B00882142 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9461136F1A4B00882142 /* DDLog.m */; };
 		313C948B136F1A4B00882142 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9463136F1A4B00882142 /* DDTTYLogger.m */; };
@@ -28,6 +30,13 @@
 		313C949A136F1A4B00882142 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9487136F1A4B00882142 /* DDNumber.m */; };
 		313C949B136F1A4B00882142 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9489136F1A4B00882142 /* DDRange.m */; };
 		313C94A1136F1A6900882142 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313C94A0136F1A6900882142 /* Security.framework */; };
+		313C9769137020FE00882142 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9760137020FE00882142 /* Feed.m */; };
+		313C976A137020FE00882142 /* FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9762137020FE00882142 /* FeedItem.m */; };
+		313C976B137020FE00882142 /* TorrentFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9764137020FE00882142 /* TorrentFeed.m */; };
+		313C976C137020FE00882142 /* Subscriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9766137020FE00882142 /* Subscriptions.m */; };
+		313C976D137020FE00882142 /* YouTubeFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C9768137020FE00882142 /* YouTubeFeed.m */; };
+		313C97791370220100882142 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C97781370220100882142 /* Preferences.m */; };
+		313C977D1370223600882142 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313C977C1370223600882142 /* Preferences.xib */; };
 		770B37ED0679A11B001EADE2 /* BitLove_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* BitLove_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* BitLove_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* BitLove_AppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -42,6 +51,10 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3104CA881382CFBD00814881 /* BTLDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLDownloadController.h; sourceTree = "<group>"; };
+		3104CA891382CFBD00814881 /* BTLDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLDownloadController.m; sourceTree = "<group>"; };
+		3104CA911382D0AC00814881 /* BTLBittorrentDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLBittorrentDownloadController.h; sourceTree = "<group>"; };
+		3104CA921382D0AC00814881 /* BTLBittorrentDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLBittorrentDownloadController.m; sourceTree = "<group>"; };
 		313C9427136F167E00882142 /* BitLove.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BitLove.icns; path = ../img/BitLove.icns; sourceTree = SOURCE_ROOT; };
 		313C9460136F1A4B00882142 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = ../3rd/cocoahttpserver/Vendor/CocoaLumberjack/DDLog.h; sourceTree = SOURCE_ROOT; };
 		313C9461136F1A4B00882142 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = ../3rd/cocoahttpserver/Vendor/CocoaLumberjack/DDLog.m; sourceTree = SOURCE_ROOT; };
@@ -82,6 +95,19 @@
 		313C9488136F1A4B00882142 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = ../3rd/cocoahttpserver/DDRange.h; sourceTree = SOURCE_ROOT; };
 		313C9489136F1A4B00882142 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = ../3rd/cocoahttpserver/DDRange.m; sourceTree = SOURCE_ROOT; };
 		313C94A0136F1A6900882142 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		313C975F137020FE00882142 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		313C9760137020FE00882142 /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		313C9761137020FE00882142 /* FeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedItem.h; sourceTree = "<group>"; };
+		313C9762137020FE00882142 /* FeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedItem.m; sourceTree = "<group>"; };
+		313C9763137020FE00882142 /* TorrentFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentFeed.h; sourceTree = "<group>"; };
+		313C9764137020FE00882142 /* TorrentFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentFeed.m; sourceTree = "<group>"; };
+		313C9765137020FE00882142 /* Subscriptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subscriptions.h; sourceTree = "<group>"; };
+		313C9766137020FE00882142 /* Subscriptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscriptions.m; sourceTree = "<group>"; };
+		313C9767137020FE00882142 /* YouTubeFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeFeed.h; sourceTree = "<group>"; };
+		313C9768137020FE00882142 /* YouTubeFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeFeed.m; sourceTree = "<group>"; };
+		313C97771370220100882142 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Preferences.h; path = ../3rd/CPreferences/Preferences.h; sourceTree = SOURCE_ROOT; };
+		313C97781370220100882142 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preferences.m; path = ../3rd/CPreferences/Preferences.m; sourceTree = SOURCE_ROOT; };
+		313C977C1370223600882142 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BitLove_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitLove_Prefix.pch; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* BitLove_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = BitLove_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -109,6 +135,10 @@
 			children = (
 				77C8280B06725ACE000B614F /* BitLove_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* BitLove_AppDelegate.m */,
+				3104CA881382CFBD00814881 /* BTLDownloadController.h */,
+				3104CA891382CFBD00814881 /* BTLDownloadController.m */,
+				3104CA911382D0AC00814881 /* BTLBittorrentDownloadController.h */,
+				3104CA921382D0AC00814881 /* BTLBittorrentDownloadController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -170,6 +200,7 @@
 				8D1107310486CEB800E47090 /* BitLove-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				313C977C1370223600882142 /* Preferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -186,6 +217,7 @@
 		313C944B136F19FA00882142 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				313C9772137021E700882142 /* Preferences */,
 				313C944C136F1A0400882142 /* cocoahttpserver */,
 			);
 			name = 3rd;
@@ -276,9 +308,28 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		313C9772137021E700882142 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				313C97771370220100882142 /* Preferences.h */,
+				313C97781370220100882142 /* Preferences.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
 		7756732906782D8800D1FEB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				313C975F137020FE00882142 /* Feed.h */,
+				313C9760137020FE00882142 /* Feed.m */,
+				313C9761137020FE00882142 /* FeedItem.h */,
+				313C9762137020FE00882142 /* FeedItem.m */,
+				313C9763137020FE00882142 /* TorrentFeed.h */,
+				313C9764137020FE00882142 /* TorrentFeed.m */,
+				313C9765137020FE00882142 /* Subscriptions.h */,
+				313C9766137020FE00882142 /* Subscriptions.m */,
+				313C9767137020FE00882142 /* YouTubeFeed.h */,
+				313C9768137020FE00882142 /* YouTubeFeed.m */,
 				770B37EC0679A11B001EADE2 /* BitLove_DataModel.xcdatamodel */,
 			);
 			name = Models;
@@ -337,6 +388,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
 				313C9428136F167E00882142 /* BitLove.icns in Resources */,
+				313C977D1370223600882142 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +420,14 @@
 				313C9499136F1A4B00882142 /* DDData.m in Sources */,
 				313C949A136F1A4B00882142 /* DDNumber.m in Sources */,
 				313C949B136F1A4B00882142 /* DDRange.m in Sources */,
+				313C9769137020FE00882142 /* Feed.m in Sources */,
+				313C976A137020FE00882142 /* FeedItem.m in Sources */,
+				313C976B137020FE00882142 /* TorrentFeed.m in Sources */,
+				313C976C137020FE00882142 /* Subscriptions.m in Sources */,
+				313C976D137020FE00882142 /* YouTubeFeed.m in Sources */,
+				313C97791370220100882142 /* Preferences.m in Sources */,
+				3104CA8A1382CFBD00814881 /* BTLDownloadController.m in Sources */,
+				3104CA931382D0AC00814881 /* BTLBittorrentDownloadController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +458,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../3rd/Growl/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -416,6 +480,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../3rd/Growl/Frameworks\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

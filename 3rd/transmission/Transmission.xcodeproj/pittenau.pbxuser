@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 313C950D13700A1500882142 /* Transmission */;
+		activeTarget = 4D18389609DEC0030047D688 /* libtransmission */;
+		codeSenseManager = 313C959413700A3900882142 /* Code sense */;
+		executables = (
+			313C950D13700A1500882142 /* Transmission */,
+			313C950E13700A1500882142 /* transmissioncli */,
+			313C950F13700A1500882142 /* transmission-daemon */,
+			313C951013700A1500882142 /* transmission-remote */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					821,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326109717;
+			PBXWorkspaceStateSaveDate = 326109717;
+		};
+		sourceControlManager = 313C959313700A3900882142 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	313C950D13700A1500882142 /* Transmission */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Transmission;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	313C950E13700A1500882142 /* transmissioncli */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = transmissioncli;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	313C950F13700A1500882142 /* transmission-daemon */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "transmission-daemon";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	313C951013700A1500882142 /* transmission-remote */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "transmission-remote";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	313C959313700A3900882142 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	313C959413700A3900882142 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3C7A118C0D0B2EB800B5701F /* natpmp */ = {
+		activeExec = 0;
+	};
+	4D18389609DEC0030047D688 /* libtransmission */ = {
+		activeExec = 0;
+	};
+	4DDBB71809E16BAE00284745 /* transmissioncli */ = {
+		activeExec = 0;
+		executables = (
+			313C950E13700A1500882142 /* transmissioncli */,
+		);
+	};
+	8D1107260486CEB800E47090 /* Transmission */ = {
+		activeExec = 0;
+		executables = (
+			313C950D13700A1500882142 /* Transmission */,
+		);
+	};
+	A22CFCB90FC24F710009BD3E /* dht */ = {
+		activeExec = 0;
+	};
+	A2E384CD130DFB1D001F501B /* utp */ = {
+		activeExec = 0;
+	};
+	BE1183470CE160960002D0F3 /* miniupnp */ = {
+		activeExec = 0;
+	};
+	BE75C3480C729E9500DBEFE0 /* event */ = {
+		activeExec = 0;
+	};
+	BEFC1BFF0C07750000B0BB3C /* transmission-daemon */ = {
+		activeExec = 0;
+		executables = (
+			313C950F13700A1500882142 /* transmission-daemon */,
+		);
+	};
+	BEFC1CEA0C07822400B0BB3C /* transmission-remote */ = {
+		activeExec = 0;
+		executables = (
+			313C951013700A1500882142 /* transmission-remote */,
+		);
+	};
+}
